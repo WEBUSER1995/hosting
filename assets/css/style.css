@@ -1,0 +1,72 @@
+/** banner section **/
+
+.banner_main {
+    padding: 250px 0 0px 0;
+    background: url(../img/banner5.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+.text-bg {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.text-bg h1 {
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+.text-bg span {
+    line-height: 28px;
+    padding-bottom: 20px;
+    display: block;
+    color: #f2db18;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text-bg p {
+    line-height: 28px;
+    padding-bottom: 70px;
+    display: block;
+    color: #fff;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.text-bg a {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    position: relative;
+    line-height: 1px;
+}
+
+.text-bg a::before {
+    position: absolute;
+    content: "";
+    top: 3px;
+    border-right: #ffff00 solid 1px;
+    border-width: 90px;
+    height: 1px;
+    right: -111px;
+}
+
+.text-bg a:hover {
+    color: #fff;
+    transition: ease-in all 0.5s;
+}
+
+.ban_img figure {
+    margin: 0;
+}
+
+
+/** end banner section **/
